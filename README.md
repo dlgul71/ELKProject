@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/docker_ps_output_elk.png)
+![](Images/docker_ps_output_elk.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -113,8 +113,6 @@ Update the install-elk.yml and filebeat-playbook.yml file to include the machine
 Run the playbook, and navigate to 
 http://20.115.132.3:5601/app/kibana 
 
-
-_TODO: Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it? .yml files are playbook files that can be run with Ansible. Typically, it's copied into a container where ansible is installed to be deployed
 
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
